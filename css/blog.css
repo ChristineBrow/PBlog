@@ -1,3 +1,9 @@
+.wraper
+{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
 .head
 {
 	width: 100%;
@@ -21,7 +27,45 @@
 .title
 {
 	width: 180px;
-	height: 70px;
-	background-color: pink;
-	margin-left: 400px;
+	height: 50px;
+	background-color: #3A9F7B;
+	font-family: sans-serif;
+	margin-left: 575px;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	box-shadow: 0 8px 10px 2px #5F6060;
+}
+.menu
+{
+	float: left;
+	width: 50px;
+	height: 20px;
+	color: #596161;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+.menu:hover
+{
+	cursor: pointer;
+	color: #373B3B;
+}
+.submenu
+{
+	width: 70px;
+	height: 86px;
+	/*visibility: hidden;*/
+	position: relative;
+	border: solid 1px black;
+	color: black;
+}
+.submenu ul li
+{
+	list-style: none;
+	float: left;
+	margin: 0;
+	text-align: center;
+	font-family: sans-serif;
 }
