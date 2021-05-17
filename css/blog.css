@@ -43,7 +43,7 @@
 	width: 50px;
 	height: 20px;
 	color: #596161;
-	margin-top: 30px;
+	margin-top: 15px;
 	margin-left: 20px;
 	font-family: sans-serif;
 }
@@ -51,13 +51,20 @@
 {
 	cursor: pointer;
 	color: #373B3B;
+	visibility: visible;
+}
+.menu p:hover ~.submenu
+{
+	visibility: visible;
+	cursor: pointer;
 }
 .submenu
 {
-	width: 70px;
-	height: 86px;
-	/*visibility: hidden;*/
+	width: 110px;
+	height: 90px;
 	position: relative;
+	margin-top: -18px;
+	visibility: hidden;
 	border: solid 1px black;
 	color: black;
 }
@@ -65,7 +72,17 @@
 {
 	list-style: none;
 	float: left;
-	margin: 0;
-	text-align: center;
+	margin-right: 10px;
+	text-align: left;
 	font-family: sans-serif;
+}
+.submenu:hover
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.submenu ul li:hover
+{
+	color: #373B3B;
+	transition: ease 0.2s;
 }
