@@ -3,6 +3,13 @@
 	width: 100%;
 	margin: auto;
 	background-color: white;
+	/*
+	background-image: ....;
+	background-size: cover;
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 100vh;
+	*/
 }
 .head
 {
@@ -41,11 +48,15 @@
 {
 	float: left;
 	width: 50px;
-	height: 20px;
+	height: 70px;
 	color: #596161;
-	margin-top: 15px;
+	margin-top: 30px;
 	margin-left: 20px;
 	font-family: sans-serif;
+}
+.menu p
+{
+	margin: 0;
 }
 .menu:hover
 {
@@ -62,17 +73,20 @@
 {
 	width: 110px;
 	height: 90px;
+	margin: 0;
 	position: relative;
-	margin-top: -18px;
 	visibility: hidden;
+	text-align: center;
+
+	background-color: white;
 	border: solid 1px black;
 	color: black;
 }
 .submenu ul li
 {
-	list-style: none;
 	float: left;
-	margin-right: 10px;
+	list-style: none;
+	display: inline;
 	text-align: left;
 	font-family: sans-serif;
 }
@@ -83,6 +97,6 @@
 }
 .submenu ul li:hover
 {
-	color: #373B3B;
+	color: #3A9F7B;
 	transition: ease 0.2s;
 }
